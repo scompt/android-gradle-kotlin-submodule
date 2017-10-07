@@ -1,0 +1,4 @@
+include ':hello-android'
+rootProject.buildFileName = 'build.gradle.kts'
+project(':hello-android').buildFileName = 'build.gradle.kts'
+
